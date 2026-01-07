@@ -15,11 +15,31 @@ body {
   max-width: 80%;
   margin: 0 auto;
 }
+.header-text {
+  margin-bottom: 32px;
+}
+
+.header-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+
+.header-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
 
 #banner,
 #piller,
 #future,
-#option {
+#option,
+#news {
   margin-bottom: 80px;
 }
 .btn {
@@ -31,6 +51,62 @@ body {
   font-weight: 600;
 }
 
+.news-content-2 {
+  flex-direction: row-reverse;
+}
+
+.news-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+
+.news-content .news-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-content .news-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.news-content .news-text img {
+  width: 143px;
+}
+
+.news-content .news-text .news-time {
+  display: flex;
+  gap: 12px;
+}
+
+.news-content .news-text .btn {
+  width: 169px;
+  padding: 13px 32px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+}
+
+.news-content .news-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-card .card-img img {
+  width: 408px;
+  border-radius: 24px;
+}
 /* main section */
 
 .navbar-content {
@@ -175,5 +251,21 @@ body {
 .future-box h3 {
   font-size: 20px;
   font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+/* option  */
+
+.option-content h3 {
+  display: flex;
+  background-color: aqua;
+}
+
+.option-content td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
 }
