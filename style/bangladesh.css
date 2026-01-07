@@ -39,7 +39,9 @@ body {
 #piller,
 #future,
 #option,
-#news {
+#news,
+#donate,
+#subcribe {
   margin-bottom: 80px;
 }
 .btn {
@@ -268,4 +270,117 @@ body {
   font-weight: 400;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
+}
+
+#donate-continer .header-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.donate-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.donate-taka {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+.donate-taka h2 {
+  width: 240px;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.donate-content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.3);
+  padding: 20px 40px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.donate-content .btn {
+  width: 151px;
+  margin: 0 auto;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  background: rgba(0, 106, 80, 1);
+}
+
+#subcribe-continer .header-text {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#subcribe-continer {
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+}
+
+.subcribe-card {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.subcribe-content .subcribe-card input[type="email"] {
+  width: 600px;
+  padding: 20px 40px;
+  align-items: center;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.subcribe-card .btn {
+  border-radius: 0px 8px 8px 0px;
+  background: rgba(0, 106, 80, 1);
+  margin-bottom: 25px;
+}
+
+.subcribe-content p {
+  text-align: center;
+}
+
+#contact {
+  background: rgba(255, 255, 255, 1);
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 50px 160px;
+}
+
+.contact-content h3 {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 38px;
+  color: rgba(14, 14, 14, 1);
+}
+.contact-content .icon {
+  display: flex;
+  gap: 32px;
 }
