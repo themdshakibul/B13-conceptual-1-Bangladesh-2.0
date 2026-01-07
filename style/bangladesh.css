@@ -258,9 +258,37 @@ body {
 
 /* option  */
 
+/* Problem */
+.option-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
+}
+
+#option-continer {
+  width: 100%;
+}
+
+.option-content {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 .option-content h3 {
   display: flex;
   background-color: aqua;
+}
+
+.option-content .btn {
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(9, 161, 92, 0.15);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
 }
 
 .option-content td {
@@ -353,7 +381,13 @@ body {
 }
 
 .subcribe-card .btn {
+  margin-left: -4px;
+  align-items: center;
+  text-align: center;
+  padding: 18px 20px;
   border-radius: 0px 8px 8px 0px;
+  color: white;
+  border: none;
   background: rgba(0, 106, 80, 1);
   margin-bottom: 25px;
 }
